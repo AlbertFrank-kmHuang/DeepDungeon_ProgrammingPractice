@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>battle</class>
+ <widget class="QWidget" name="battle">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>463</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;敌方：（第一位为前台，其余为后台）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enemy_4">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>40</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enemy_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enemy_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enemy_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>40</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="enemy_1_name">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="enemy_2_name">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="enemy_3_name">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="enemy_4_name">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>160</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;我方：（第一位为前台，其余为后台）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="my_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>290</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="my_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>290</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="my_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>290</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="my_4">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>290</y>
+     <width>113</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="my_1_name">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="my_2_name">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="my_3_name">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="my_4_name">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;回合数：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="turns_show">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>10</y>
+     <width>104</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
